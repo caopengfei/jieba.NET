@@ -22,7 +22,7 @@ jieba.NET是[jieba中文分词](https://github.com/fxsjy/jieba)的.NET版本（C
 
 ## 安装和配置
 
-当前版本基于.NET Standard 2.0，可以手动引用项目，通过NuGet添加引用：
+当前版本基于.NET Standard 2.0，通过NuGet添加引用：
 
 ```shell
 PM> Install-Package Jieba.Net.Standard
