@@ -22,10 +22,10 @@ jieba.NET是[jieba中文分词](https://github.com/fxsjy/jieba)的.NET版本（C
 
 ## 安装和配置
 
-当前版本基于.NET Framework 4.5，可以手动引用项目，也可以通过NuGet添加引用：
+当前版本基于.NET Standard 2.0，可以手动引用项目，通过NuGet添加引用：
 
 ```shell
-PM> Install-Package jieba.NET
+PM> Install-Package Jieba.Net.Standard
 ```
 
 安装之后，在packages\jieba.NET目录下可以看到Resources目录，这里面是jieba.NET运行所需的词典及其它数据文件，最简单的配置方法是将整个Resources目录拷贝到程序集所在目录，这样jieba.NET会使用内置的默认配置值。如果希望将这些文件放在其它位置，则要在app.config或web.config中添加如下的配置项：
