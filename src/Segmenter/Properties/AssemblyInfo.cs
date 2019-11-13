@@ -16,7 +16,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("Copyright © andersc 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: InternalsVisibleTo("JiebaNet.Segmenter.Tests, PublicKey=002400000480000094000000060200000024000052534131000400000100010091812699fa05dc8484c20c446ddbbc32d6225f129334203592dc0b131a86f4e2e69433e7aae3e56359331d37562a35be7a146454126f00ca6c5e6075a4602bfae17dd4a9c15910316fa9f565c73af982b0d02f01fefdccb3f9d08855cb6376f42759e39b3858bfb4f0e79df4063415da2ed4f0a90eecb87a729a67a36d86f1a9")]
+[assembly: InternalsVisibleTo("JiebaNet.NetCore.Segmenter.Tests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100ed964c045774477f47a7942c56faf67c6631e19222b3982bd12de3977362e68b1168569609f2362454775c774c3ab0756a961dbfe5a0bd11d4a2d93f496693032448b046e35503141d7d2439b2422d4ca144a8e8f08435f4a353be07e81fb5933ac976f076d71907d2ba5b7ad580304ef0ac6a9c8f878580e8b97a0277663198")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 

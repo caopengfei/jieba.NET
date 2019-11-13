@@ -19,7 +19,7 @@ namespace JiebaNet.Segmenter.Cli
         [Option('f', "file", Required = true)]
         public string FileName { get; set; }
 
-        [Option('d', "delimiter", DefaultValue = "/ ")]
+        [Option('d', "delimiter", DefaultValue  = "/ ")]
         public string Delimiter { get; set; }
 
         [Option('p', "pos")]
