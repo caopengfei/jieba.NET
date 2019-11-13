@@ -28,7 +28,7 @@ jieba.NET是[jieba中文分词](https://github.com/fxsjy/jieba)的.NET版本（C
 PM> Install-Package Jieba.Net.Standard
 ```
 
-安装之后，在packages\jieba.NET目录下可以看到Resources目录，这里面是jieba.NET运行所需的词典及其它数据文件，最简单的配置方法是将整个Resources目录拷贝到程序集所在目录，这样jieba.NET会使用内置的默认配置值。如果希望将这些文件放在其它位置，则要在app.config或web.config中添加如下的配置项：
+安装之后，在packages\Jieba.Net.Standard目录下可以看到Resources目录，这里面是Jieba.Net.Standard运行所需的词典及其它数据文件，最简单的配置方法是将整个Resources目录拷贝到程序集所在目录，这样Jieba.Net.Standard会使用内置的默认配置值。如果希望将这些文件放在其它位置，则要在app.config或web.config中添加如下的配置项：
 
 ```xml
 <appSettings>
@@ -36,7 +36,7 @@ PM> Install-Package Jieba.Net.Standard
 </appSettings>
 ```
 
-需要注意的是，这个路径可以使用绝对路径或相对路径。**如果使用相对路径，那么jieba.NET会假设该路径是相对于当前应用程序域的BaseDirectory**。
+需要注意的是，这个路径可以使用绝对路径或相对路径。**如果使用相对路径，那么Jieba.Net.Standard会假设该路径是相对于当前应用程序域的BaseDirectory**。
 
 配置示例：
 
